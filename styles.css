@@ -144,7 +144,8 @@
   width: 100px;
   height: 100px;
   object-fit: cover;
-  border: 3px solid;
+  border-width: 3px;
+  border-style: solid;
   border-color: var(--text-decoration-color);
   margin: 5px auto;
 }
@@ -163,7 +164,7 @@
   }
   
   .intro__icon {
-    height: 1.1428rem;
+    height: 1.15rem;
     vertical-align: text-bottom;
   }
   
